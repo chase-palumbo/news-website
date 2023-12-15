@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palumbo News</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=News+Cycle&display=swap" rel="stylesheet">
+    <script type="module" defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/adc7c3fbb3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="title">
+        <h1>PALUMBO NEWS</h1>
+    </div>
+
+    <div id="search-options">
+        <div class="keyword-options">
+            <label for="search">Search</label>
+            <input 
+                type="text" 
+                name="search" 
+                id="search-input" 
+                placeholder="Keywords"
+            >
+            <button id="search-btn">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+    </div>
+
+    <div id="categories">
+        <div class="category">
+            <button id="general-btn" class="category-btn clicked-category">General</button>
+        </div>
+        <div class="category">
+            <button id="business-btn" class="category-btn">Business</button>
+        </div>
+        <div class="category">
+            <button id="entertainment-btn" class="category-btn">Entertainment</button>
+        </div>
+        <div class="category">
+            <button id="health-btn" class="category-btn">Health</button>
+        </div>
+        <div class="category">
+            <button id="science-btn" class="category-btn">Science</button>
+        </div>
+        <div class="category">
+            <button id="sports-btn" class="category-btn">Sports</button>
+        </div>
+        <div class="category">
+            <button id="technology-btn" class="category-btn">Technology</button>
+        </div>
+    </div>
+
+    <div id="news">
+        <div id="headliners">
+    
+        </div>
+    
+        <div id="articles">
+    
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>Copyright 2023 Chase Palumbo</p>
+        <p>Made using the News API  <a href="https://newsapi.org">newsapi.org</a></p>
+    </div>
+</body>
+</html>
