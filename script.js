@@ -34,7 +34,8 @@ const getTopHeadlines = async () => {
 
     const response = await fetch(url, {
         headers: {
-            'X-Api-Key': API_KEY
+            'X-Api-Key': API_KEY,
+            'Content-Type': 'application/json'
         }
     });
     if (!response.ok) throw new Error('Error fetching articles.');
